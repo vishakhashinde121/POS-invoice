@@ -82,7 +82,7 @@ add();
                 </td>
                 <td>
                   <h3>Basic</h3>
-                  <input type="text" id="basic"  value={basic} onKeyUp={pqr} readOnly  />
+                  <input type="text" id="basic"  value={basic} readOnly  />
                                  </td>
                 <td>
                   <h3>Dis%</h3>
@@ -90,7 +90,7 @@ add();
                 </td>
                 <td>
                   <h3>Dis value</h3>
-                  <input type="text" id="disvalue"  value={disvalue}    onKeyUp={pqr}readOnly   />
+                  <input type="text" id="disvalue"  value={disvalue}    onClick={pqr} readOnly   />
                 </td>
                 <td>
                   <h3>Total</h3>
